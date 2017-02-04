@@ -4,3 +4,5 @@ Git has a mutable index called stage.
 My stupid leader is still use svn.
 Creating a new branch is quick & simple.
 Still creating a branch test.
+ 
+other branch clone from master
