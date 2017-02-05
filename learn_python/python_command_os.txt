@@ -1,0 +1,23 @@
+>>>>>>> feature1
+n 在自动化运维时经常会用到的方法
+得到当当前工作目录，即当前python脚本工作的目录路径：os.cwd()
+返回指定目录下的所有文件和目录名：os.listdir()
+函数用来删除一个文件：os.remove()
+删除多个目录：osremovedirs(rc:\python") //略危险，熟练之后再用吧
+检验给出的路径是否是一个文件：os.path.isfile() //经常会用
+检验给出的路径是否是一个目录：os.path.isdir() //经常会用
+判断是否是绝对路径：os.path.isabs()
+检验给出的路径是否真是存在：os.path.exits()
+返回一个路径的目录名和文件名:os.path.split()
+eg：
+os.path.split('/home/swaroop/byte/code/poem.txt')
+结果为:('/home/swaroop/byte/code','poem.txt')
+
+分离扩展名：os.path.splitext()
+获取路径名：os.path.dirname()
+获取文件名：os.path.basename()
+运行shell命令：os.system()
+读取和设置环境变量：os.getenv() 与os.putenv()
+给出当前平台使用的终止符:os.linesep 
+显示你正在使用的平台：os.name (对于windows是'nt', linux/unix是'posix')
+
